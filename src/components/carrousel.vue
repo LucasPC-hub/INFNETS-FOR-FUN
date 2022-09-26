@@ -7,24 +7,24 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../assets/musical-Hamilton.jpg" class="d-block redimencionar" alt="...">
+        <img src="../assets/hamilton.jpg" class="d-block w-100 redimencionar" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
+          <h1 class="caption-title">First slide label</h1>
           <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/Angra.jpg" class="d-block w-100 redimencionar" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
+          <h1>Second slide label</h1>
           <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="../assets/Europe.jpg" class="d-block w-100 redimencionar" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+        <img src="../assets/hamilton.jpg" class="d-block w-100 redimencionar" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start flex-center">
+          <h1>Hamilton</h1>
+          <p class="shadow">Um fenomeno do teatro musical</p>
         </div>
       </div>
     </div>
@@ -48,7 +48,15 @@ export default {
 <style scoped>
 .redimencionar{
   height: 500px;
-  width: 1500px;
   margin: auto;
 }
+.carousel-caption {
+  width: 500px;
+  font-size: 25px;
+  bottom: 100px;
+  z-index: 10;
+  display: table;
+  background-color: rgba(0, 0, 0, 0.60)
+}
+
 </style>
