@@ -1,6 +1,9 @@
 <template>
- <navBar></navBar>
-  <destaques-carrossel></destaques-carrossel>
+  <div id="app">
+   <navBar></navBar>
+    <destaques-carrossel></destaques-carrossel>
+    <router-view />
+  </div>
 </template>
 
 <script>
