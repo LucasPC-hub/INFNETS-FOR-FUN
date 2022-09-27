@@ -8,23 +8,23 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="../assets/bandmaid.jpg" class="d-block w-75 redimencionar" alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block text-start">
           <h1 class="caption-title">Band Maid</h1>
           <p>Banda de hard rock feminino do Japão</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="../assets/Angra.jpg" class="d-block w-100 redimencionar" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>Second slide label</h1>
-          <p>Some representative placeholder content for the second slide.</p>
+        <img src="../assets/rock-in-rio-2022.jpg" class="d-block w-75 redimencionar" alt="...">
+        <div class="carousel-caption d-none d-md-block text-start">
+          <h1>Rock in Rio 2022</h1>
+          <p>O maior festival de rock do mundo</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="../assets/hamilton.jpg" class="d-block w-100 redimencionar" alt="...">
         <div class="carousel-caption d-none d-md-block text-start flex-center">
           <h1>Hamilton</h1>
-          <p class="shadow">Um fenomeno do teatro musical</p>
+          <p>Um fenomeno do teatro musical</p>
         </div>
       </div>
     </div>
