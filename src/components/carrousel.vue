@@ -7,10 +7,10 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../assets/hamilton.jpg" class="d-block w-100 redimencionar" alt="...">
+        <img src="../assets/bandmaid.jpg" class="d-block w-75 redimencionar" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1 class="caption-title">First slide label</h1>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h1 class="caption-title">Band Maid</h1>
+          <p>Banda de hard rock feminino do Japão</p>
         </div>
       </div>
       <div class="carousel-item">
@@ -55,8 +55,8 @@ export default {
   font-size: 25px;
   bottom: 100px;
   z-index: 10;
-  display: table;
-  background-color: rgba(0, 0, 0, 0.60)
+  font-weight: 1000;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 </style>
