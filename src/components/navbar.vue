@@ -11,21 +11,21 @@
     <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <router-link  to="/test" class="nav-link active" aria-current="page">Test</router-link>
+          <router-link  to="/musicas" class="nav-link active" aria-current="page">Musicas</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Festivais</a>
+          <router-link  to="/festivais" class="nav-link active" aria-current="page" href="#">Festivais</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Teatros</a>
+          <router-link  to="/teatros" class="nav-link active" aria-current="page" href="#">Teatros</router-link>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Mais
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Localizações</a></li>
-            <li><a class="dropdown-item" href="#">Quem Somos</a></li>
+            <li><router-link  to="/localizacoes" class="dropdown-item" href="#">Localizações</router-link></li>
+            <li><router-link  to="/quemsomos" class="dropdown-item" href="#">Quem Somos</router-link></li>
           </ul>
         </li>
       </ul>

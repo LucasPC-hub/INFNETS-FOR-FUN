@@ -1,11 +1,16 @@
 <template>
   <div class="home">
-    <a style="color: azure">Página Home via Router</a>
+    <destaques-carrossel></destaques-carrossel>
   </div>
 </template>
 
 <script>
+import destaquesCarrossel from '../components/carrousel.vue'
+
 export default {
-  name: "HomeView"
+  name: 'HomeView',
+  components: {
+    destaquesCarrossel
+  },
 }
 </script>
