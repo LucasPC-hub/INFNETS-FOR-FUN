@@ -7,7 +7,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../assets/bandmaid.jpg" class="d-block w-75 redimencionar" alt="...">
+        <img src="@/assets/bandmaid.jpg" class="d-block w-75 redimencionar" alt="...">
         <div class="carousel-caption d-none d-md-block text-start">
           <h1 class="caption-title">Band Maid</h1>
           <p>Banda de hard rock feminino do Japão</p>
