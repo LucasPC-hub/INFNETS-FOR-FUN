@@ -1,5 +1,10 @@
 import HomeView from '../views/HomeView.vue'
-import TestView from "../views/TestView.vue";
+import MusicasView from "@/views/MusicasView";
+import FestivaisView from "@/views/FestivaisView";
+import TeatrosView from "@/views/TeatrosView";
+import LocalizacoesView from "@/views/LocalizacoesView";
+import QuemSomosView from "@/views/QuemSomosView";
+
 
 const routes = [
     {
@@ -8,9 +13,29 @@ const routes = [
         component: HomeView
     },
     {
-        path: '/test',
-        name: 'test',
-        component: TestView
+        path: '/musicas',
+        name: 'musicas',
+        component: MusicasView
+    },
+    {
+        path: '/festivais',
+        name: 'festivais',
+        component: FestivaisView
+    },
+    {
+        path: '/teatros',
+        name: 'teatros',
+        component: TeatrosView
+    },
+    {
+        path: '/localizacoes',
+        name: 'localizacoes',
+        component: LocalizacoesView
+    },
+    {
+        path: '/quemsomos',
+        name: 'quemsomos',
+        component: QuemSomosView
     }
     ]
 
