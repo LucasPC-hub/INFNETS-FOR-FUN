@@ -11,7 +11,7 @@
     <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <router-link  to="/musicas" class="nav-link active" aria-current="page">Musicas</router-link>
+          <router-link  to="/musicas" class="nav-link active" aria-current="page">Músicas</router-link>
         </li>
         <li class="nav-item">
           <router-link  to="/festivais" class="nav-link active" aria-current="page">Festivais</router-link>

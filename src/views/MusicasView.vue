@@ -1,5 +1,5 @@
 <template>
-  <h1>MUSICAS</h1>
+  <h1>MÚSICAS</h1>
   <div class="musicas">
     <flipCards class="musicas" v-for="item in bandas" :key="item.id" :nome="item.nome" :imagem=item.imagem :descricao=item.descricao></flipCards>
   </div>
