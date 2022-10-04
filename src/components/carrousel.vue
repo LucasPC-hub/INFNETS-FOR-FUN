@@ -50,6 +50,7 @@ export default {
   height: 500px;
   margin: auto;
 }
+
 .carousel-caption {
   width: 500px;
   font-size: 25px;

@@ -4,6 +4,7 @@ import FestivaisView from "@/views/FestivaisView";
 import TeatrosView from "@/views/TeatrosView";
 import LocalizacoesView from "@/views/LocalizacoesView";
 import QuemSomosView from "@/views/QuemSomosView";
+import buyTicketView from "@/views/buyTicketView";
 
 
 const routes = [
@@ -36,8 +37,15 @@ const routes = [
         path: '/quemsomos',
         name: 'quemsomos',
         component: QuemSomosView
+    },
+    {
+        path: '/comprar/:id',
+        name:'comprar',
+        component: buyTicketView,
+        props:true
+    }, {
+
     }
     ]
-
 
 export default routes

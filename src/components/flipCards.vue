@@ -6,7 +6,6 @@
       <div class="card-front">
         <figure>
           <img :src="require(`../assets/${imagem}`)" />
-          <figcaption>{{nome}}</figcaption>
         </figure>
       </div>
 
@@ -16,8 +15,7 @@
           <img :src="require(`../assets/${imagem}`)" />
         </figure>
         <span class="description">{{descricao}}</span>
-        <button class="position-absolute bottom-0">Comprar Ingresso</button>
-
+        <router-link class="position-absolute bottom-0" :to="(`comprar/${id}`)"><button >Comprar Ingresso</button></router-link>
       </div>
 
     </div>
@@ -28,7 +26,18 @@
 <script>
 export default {
   name: "flipCards",
-  props : ['nome','imagem','descricao']
+  props :{
+    id:{
+      type: String,
+      default: '1',
+    },
+    descricao:{
+      type: String
+    },
+    imagem:{
+      type: String
+    }
+  }
 }
 </script>
 
@@ -56,7 +65,7 @@ export default {
 
   position: relative;
   transform-style: preserve-3d;
-  transition: .6s .1s;
+  transition: 0.3s;
 }
 
 /* hover and focus-within states */
@@ -95,6 +104,10 @@ export default {
 .card-back {
   transform: rotateY(180deg);
   z-index: 1;
+}
+.card-back img{
+  transform: scaleX(-1);
+  opacity: 0.40;
 }
 
 /* figure */
@@ -216,7 +229,6 @@ button:focus+.design-container {
   --op: .7;
 }
 .description{
-  background-color: rgba(0, 0, 0, 0.20);
   width: 250px;
   word-wrap: break-word;
   font-size: 18px;

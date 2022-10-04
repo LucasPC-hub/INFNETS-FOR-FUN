@@ -23,3 +23,18 @@ export default {
   },
 }
 </script>
+
+<style>
+body{
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 70%, rgba(0,17,111,1) 100%);
+  background-attachment: fixed;
+}
+@media (max-width: 480px){
+  .musicas{
+    width: 100%;
+    flex-wrap: wrap;
+    margin:auto;
+  }
+}
+</style>
