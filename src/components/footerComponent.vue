@@ -76,4 +76,7 @@ export default {
   src: local("Bebas"),
   url(../fonts/BebasNeue-Regular.ttf) format("truetype");
 }
+footer{
+  margin-top: 30px ;
+}
 </style>

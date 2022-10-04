@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="../assets/hamilton.jpg" class="d-block w-100 redimencionar" alt="...">
+        <img src="../assets/hamilton.jpg" class="d-block w-75 redimencionar" alt="...">
         <div class="carousel-caption d-none d-md-block text-start flex-center">
           <h1>Hamilton</h1>
           <p>Um fenomeno do teatro musical</p>

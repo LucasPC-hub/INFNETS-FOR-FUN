@@ -11,11 +11,11 @@
           </div>
           <p class="lead">{{desc}}</p>
           <div class="d-flex">
-            <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
-            <button class="btn btn-outline-light flex-shrink-0" type="button">
+            <input class="form-control text-center me-3" id="inputQuantity" type="number" value="1" style="max-width: 3rem" />
+            <router-link class="btn btn-outline-light flex-shrink-0" type="button" to="/checkout">
               <i class="bi-cart-fill me-1"></i>
               Comprar
-            </button>
+            </router-link>
           </div>
         </div>
       </div>

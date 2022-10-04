@@ -5,6 +5,7 @@ import TeatrosView from "@/views/TeatrosView";
 import LocalizacoesView from "@/views/LocalizacoesView";
 import QuemSomosView from "@/views/QuemSomosView";
 import buyTicketView from "@/views/buyTicketView";
+import checkout from "@/components/checkout";
 
 
 const routes = [
@@ -44,7 +45,9 @@ const routes = [
         component: buyTicketView,
         props:true
     }, {
-
+        path: "/checkout",
+        name:'checkout',
+        component: checkout
     }
     ]
 
