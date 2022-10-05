@@ -56,4 +56,9 @@ export default {
   .nav-item{
     font-size: 20px;
   }
+  @media (max-width: 480px) {
+    .navbar-brand{
+      margin: auto;
+    }
+  }
 </style>

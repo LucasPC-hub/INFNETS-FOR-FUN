@@ -5,14 +5,14 @@
 
       <div class="card-front">
         <figure>
-          <img :src="require(`../assets/${imagem}`)" />
+          <img :src="require(`../assets/${imagem}`)"  alt=""/>
         </figure>
       </div>
 
       <div class="card-back">
         <figure>
           <div class="img-bg"></div>
-          <img :src="require(`../assets/${imagem}`)" />
+          <img :src="require(`../assets/${imagem}`)" alt="" />
         </figure>
         <span class="description">{{descricao}}</span>
         <router-link class="position-absolute bottom-0" :to="(`comprar/${id}`)"><button >Comprar Ingresso</button></router-link>
@@ -28,8 +28,7 @@ export default {
   name: "flipCards",
   props :{
     id:{
-      type: String,
-      default: '1',
+      type: Number
     },
     descricao:{
       type: String
@@ -222,9 +221,9 @@ button:active {
 
 /* .design-container */
 
-button:hover+.design-container,
-button:active+.design-container,
-button:focus+.design-container {
+button:hover
+button:active
+button:focus {
   --tr: 20;
   --op: .7;
 }

@@ -1,6 +1,6 @@
 <template>
       <div class="map-responsive">
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GszN01WWyjb-qvqsuNJm27NpUAY&ll=-23.79206721414853%2C-39.730252809394315&z=5" height="800px" width="100%"></iframe>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=11j5yogUxv6gDqAhhTG0_RIIztzhnGEc&ehbc=2E312F" width="100%" height="800"></iframe>
       </div>
 </template>
 

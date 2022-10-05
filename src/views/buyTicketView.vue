@@ -17,7 +17,11 @@ export default {
   name: "buyTicketView",
   components:{
     buyTicket
-  },props:['id']
+  },props:{
+    id:{
+      type : Number
+    }
+  }
 }
 </script>
 
