@@ -4,6 +4,10 @@
 set -e
 
 # build
+npm install
+
+npm run serve
+
 npm run build
 
 # navigate into the build output directory
