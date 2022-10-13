@@ -15,37 +15,46 @@ const routes = [
         component: HomeView
     },
     {
-        path: '/musicas',
+        path: '/',
+        redirect: { name: 'Home' }
+    },
+    {
+        path: '/INFNETS-FOR-FUN/',
+        name: 'Home',
+        component: HomeView
+    },
+    {
+        path: '/INFNETS-FOR-FUN/musicas',
         name: 'musicas',
         component: MusicasView
     },
     {
-        path: '/festivais',
+        path: '/INFNETS-FOR-FUN/festivais',
         name: 'festivais',
         component: FestivaisView
     },
     {
-        path: '/teatros',
+        path: '/INFNETS-FOR-FUN/teatros',
         name: 'teatros',
         component: TeatrosView
     },
     {
-        path: '/localizacoes',
+        path: '/INFNETS-FOR-FUN/localizacoes',
         name: 'localizacoes',
         component: LocalizacoesView
     },
     {
-        path: '/quemsomos',
+        path: '/INFNETS-FOR-FUN/quemsomos',
         name: 'quemsomos',
         component: QuemSomosView
     },
     {
-        path: '/comprar/:id',
+        path: '/INFNETS-FOR-FUN/comprar/:id',
         name:'comprar',
         component: buyTicketView,
         props:true
     }, {
-        path: "/checkout",
+        path: "/INFNETS-FOR-FUN/checkout",
         name:'checkout',
         component: checkout
     }

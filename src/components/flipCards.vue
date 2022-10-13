@@ -15,7 +15,7 @@
           <img :src="require(`../assets/${imagem}`)" alt="" />
         </figure>
         <span class="description">{{descricao}}</span>
-        <router-link class="position-absolute bottom-0" :to="(`comprar/${id}`)"><button >Comprar Ingresso</button></router-link>
+        <router-link class="position-absolute bottom-0" :to="(`/INFNETS-FOR-FUN/comprar/${id}`)"><button >Comprar Ingresso</button></router-link>
       </div>
 
     </div>

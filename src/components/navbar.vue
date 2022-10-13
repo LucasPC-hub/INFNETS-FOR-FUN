@@ -11,21 +11,21 @@
     <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <router-link  to="/musicas" class="nav-link active" aria-current="page">Músicas</router-link>
+          <router-link  to="/INFNETS-FOR-FUN/musicas" class="nav-link active" aria-current="page">Músicas</router-link>
         </li>
         <li class="nav-item">
-          <router-link  to="/festivais" class="nav-link active" aria-current="page">Festivais</router-link>
+          <router-link  to="/INFNETS-FOR-FUN/festivais" class="nav-link active" aria-current="page">Festivais</router-link>
         </li>
         <li class="nav-item">
-          <router-link  to="/teatros" class="nav-link active" aria-current="page">Teatros</router-link>
+          <router-link  to="/INFNETS-FOR-FUN/teatros" class="nav-link active" aria-current="page">Teatros</router-link>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Mais
           </a>
           <ul class="dropdown-menu">
-            <li><router-link  to="/localizacoes" class="dropdown-item">Localizações</router-link></li>
-            <li><router-link  to="/quemsomos" class="dropdown-item">Quem Somos</router-link></li>
+            <li><router-link  to="/INFNETS-FOR-FUN/localizacoes" class="dropdown-item">Localizações</router-link></li>
+            <li><router-link  to="/INFNETS-FOR-FUN/quemsomos" class="dropdown-item">Quem Somos</router-link></li>
           </ul>
         </li>
       </ul>
